@@ -59,6 +59,3 @@ class DirectLineAPI(object):
             jsonresponse = botresponse.json()
             return jsonresponse['activities'][1]['text']
         return "error contacting bot for response"
-
-
-
