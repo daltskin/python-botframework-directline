@@ -10,7 +10,10 @@ For further details refer to the API documentation here:
 
 Usage example
 
+```
 bot = DirectLineAPI('{your-direct-line-secret-here}')
 bot.send_message("Hi")
 botresponse = bot.get_message()
 print botresponse
+```
+
